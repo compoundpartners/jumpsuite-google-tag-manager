@@ -1,0 +1,6 @@
+{
+    "package-name": "aldryn-google-tag-manager",
+    "installed-apps": [
+        "aldryn_google_tag_manager"
+    ]
+}
