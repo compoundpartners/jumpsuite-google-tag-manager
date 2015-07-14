@@ -11,12 +11,18 @@ snippets in your source code; instead, you specify the tags that you want to fir
 the Google Tag Manager user interface.
 
 Aldryn Google Tag Manager makes this available for your django CMS project - provide the Google Tag Manager ID for
-this site, and it will do the rest::
+this site, and it will do the rest.
+
+At the top of your template, add::
 
     {% load google_tag_manager_tags %}
+    
+And immediately after the ``<body>`` tag (if you're using Aldryn, then just after the ``{% block extend_root %}``
+in your projects's ``base.html`` template)::
+
     {% google_tag_manager YOUR_TAG_ID %}
 
-Or, if you've already set GOOGLE_TAG_MANAGER_ID in your settings, you can just
-use: ::
+If you've already set ``GOOGLE_TAG_MANAGER_ID`` in your settings, or configured it in the Aldryn Control Panel,
+just use::
 
     {% google_tag_manager %}
