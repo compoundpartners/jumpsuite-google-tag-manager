@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[aldryn-google-tag-manager.aldryn_google_tag_manager]
+file_filter = aldryn_google_tag_manager/locale/<lang>/LC_MESSAGES/django.po
+source_file = aldryn_google_tag_manager/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
