@@ -1,6 +1,6 @@
 {
-    "package-name": "aldryn-google-tag-manager",
+    "package-name": "jumpsuite-google-tag-manager",
     "installed-apps": [
-        "aldryn_google_tag_manager"
+        "jumpsuite_google_tag_manager"
     ]
 }
