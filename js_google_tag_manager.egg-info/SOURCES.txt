@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+aldryn_google_tag_manager/__init__.py
+aldryn_google_tag_manager/templates/aldryn_google_tag_manager/google_tag_manager.html
+aldryn_google_tag_manager/templatetags/__init__.py
+aldryn_google_tag_manager/templatetags/google_tag_manager_tags.py
+js_google_tag_manager.egg-info/PKG-INFO
+js_google_tag_manager.egg-info/SOURCES.txt
+js_google_tag_manager.egg-info/dependency_links.txt
+js_google_tag_manager.egg-info/top_level.txt
+js_google_tag_manager.egg-info/zip-safe

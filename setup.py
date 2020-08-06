@@ -19,7 +19,7 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='aldryn_google_tag_manager',
+    name='js-google-tag-manager',
     version=__version__,
     description='Google Tag Manager template tag for your Django projects',
     author='Divio AG',
